@@ -11,7 +11,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            double value = 11.99;
+            double value = 12.99;
             double expected = 11.99;
 
             Assert.AreEqual(expected, value, 0.001, "Account not debited correctly");
